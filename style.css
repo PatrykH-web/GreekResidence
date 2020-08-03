@@ -197,6 +197,10 @@ li {
     overflow: hidden;
 }
 
+   .gallery a img {
+        border-radius: 5px;
+    }
+
 .gallery h1 {
     width: 100%;
     text-align: center;
