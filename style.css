@@ -617,9 +617,9 @@ li {
     }
 
     .arrow {
-        width: 30px;
-        height: 30px;
-        line-height: 40px;
+        width: 40px;
+        height: 40px;
+        line-height: 50px;
         font-size: 15px;
     }
 
