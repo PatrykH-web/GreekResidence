@@ -53,7 +53,7 @@ li {
 }
 
 .burger.change {
-    background-image: url(img/icons/close.svg);
+    background-image: url(img/icons/closemenu.svg);
     transform: rotate(180deg);
 }
 
