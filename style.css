@@ -432,6 +432,30 @@ li {
         display: block;
         margin: 0px 0px 0px 0px;
     }
+    .main ul li {
+        overflow: hidden;
+    }
+
+    .main ul li a {
+        position: relative;
+    }
+
+    .main ul li a::before {
+        content: "";
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        bottom: 0%;
+        width: 0%;
+        height: 2px;
+        background-color: white;
+        transition: .3s;
+        transform-origin: right;
+    }
+
+    .main ul li a:hover::before {
+        width: 100%;
+    }
 
     .main p:nth-of-type(1) {
         font-size: 25px;
@@ -608,4 +632,91 @@ li {
         text-align: center;
     }
 
+}
+
+@keyframes callme {
+
+    0% {
+        transform: rotate(10deg);
+    }
+
+    1% {
+        transform: rotate(-10deg);
+    }
+
+    2% {
+        transform: rotate(10deg);
+    }
+
+    3% {
+        transform: rotate(-10deg);
+    }
+
+    4% {
+        transform: rotate(10deg);
+    }
+
+    5% {
+        transform: rotate(0);
+    }
+
+    33.33% {
+        transform: rotate(0);
+    }
+
+    33.66% {
+        transform: rotate(10deg);
+    }
+
+    34.66% {
+        transform: rotate(-10deg);
+    }
+
+    35.66% {
+        transform: rotate(10deg);
+    }
+
+    36.66% {
+        transform: rotate(-10deg);
+    }
+
+    37.66% {
+        transform: rotate(10deg);
+    }
+
+    38.66% {
+        transform: rotate(0);
+    }
+
+    66.66% {
+        transform: rotate(0);
+    }
+
+    66.99% {
+        transform: rotate(10deg);
+    }
+
+    68.99% {
+        transform: rotate(-10deg);
+    }
+
+    69.99% {
+        transform: rotate(10deg);
+    }
+
+    70.99% {
+        transform: rotate(-10deg);
+    }
+
+    71.99% {
+        transform: rotate(10deg);
+    }
+
+    72.99% {
+        transform: rotate(0);
+    }
+
+    100% {
+        transform: rotate(0);
+    }
 }
