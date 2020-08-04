@@ -579,13 +579,6 @@ li {
     input {
         outline: none;
     }
-
-    option {
-        background-color: peru;
-    }
-
-
-
 }
 
 @media (orientation: landscape) and (max-width: 1023px) {
