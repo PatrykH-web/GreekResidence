@@ -255,6 +255,10 @@ li {
     z-index: 1;
 }
 
+.contact-pop i {
+    animation: callme 10s linear infinite;
+}
+
 .footer-section {
     position: relative;
     display: flex;
