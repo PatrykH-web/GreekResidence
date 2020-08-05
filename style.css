@@ -433,6 +433,7 @@ li {
     .main ul li img {
         display: block;
         margin: 0px 0px 0px 0px;
+        width: 100%;
     }
 
     .main ul li {
